@@ -22,6 +22,13 @@ All data lives **in the browser only** (no backend) and is persisted via `localS
 
 ---
 
+## 🎥 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/abcd1234EFG/0.jpg)](https://youtu.be/fSWcCK3lu9Q)
+
+> Click the image above to watch a quick walkthrough of the platform's features.
+
+
 ## 🚀 Setup Instructions
 
 > **Prerequisites:** Node ≥ 18 & npm ≥ 9 installed.
