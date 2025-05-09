@@ -6,11 +6,10 @@ import { useEffect } from "react";
 
 export default function App() {
   const { pathname } = useLocation();
-  // Persist last view across reloads
   useEffect(() => {
     localStorage.setItem("smp.currentView", pathname);
   }, [pathname]);
-
+  
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-gray-50">
       <Navigation />
